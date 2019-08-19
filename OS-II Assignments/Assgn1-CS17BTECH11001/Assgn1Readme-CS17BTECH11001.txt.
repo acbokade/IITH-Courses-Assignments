@@ -1,0 +1,32 @@
+1)  Input to the program is a file named "inp-params.txt,".
+    The processes details in the file named inp-params.txt should be given in the format as follows:
+
+    n (number of Processes)
+    n lines follow where ith line is :
+    pid[i] t[i] p[i] k[i] (pid of process, processing time of process, period of process, frequency (no of times) of process)
+    
+    Example:
+    2
+    1 25 50 3
+    2 35 100 4
+
+2)
+    a) Compile the RMS file by executing following command:
+    g++ -std=c++11 Assgn1-RMSCS17BTECH11001.cpp -o rms
+
+    b) Compile the EDF file by executing following commands:
+    g++ -std=c++11 Assgn1-EDFCS17BTECH11001.cpp -o edf
+
+
+3) 
+    a) Run the RMS executable by :
+    ./rms
+
+    b) Run the EDF executable by :
+    ./edf
+
+4) Logs of RMS are generated in file name "RM-Log.txt".
+   Logs of EDF are generated in file name "EDF-Log.txt".
+
+5) Number of processes that came into system, Number of processes that successfully complete, Number of processes that missed their deadlines, Average
+   waiting time stats are present in files named "RM-Stats.txt" and "EDF-Stats.txt" for rms and edf respectively.
