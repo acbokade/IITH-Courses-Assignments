@@ -1,0 +1,33 @@
+# This specification uses three 7-segment displays connected in
+# Display value ABCDEFGH
+INIT
+Select: 1
+# a b c d e f g dp
+#Display 3 followed by decimal point
+	1	1	1	0	1	1	1	0	
+Delay: 40
+Select: 2
+# a b c d e f g dp
+#Display 3 followed by decimal point
+	0	0	1	1	1	1	1	0	
+Delay: 40
+Select: 3
+# a b c d e f g dp
+#Display 3 followed by decimal point
+	1	0	0	1	1	1	0	0	
+Delay: 40
+Select: 4
+# a b c d e f g dp
+#Display 3 followed by decimal point
+	0	1	1	1	1	0	1	0	
+Delay: 40
+Select: 5
+# a b c d e f g dp
+#Display 3 followed by decimal point
+	1	0	0	1	1	1	1	0	
+Delay: 40
+Select: 6
+# a b c d e f g dp
+#Display 3 followed by decimal point
+	1	0	0	0	1	1	1	0	
+Delay: 40

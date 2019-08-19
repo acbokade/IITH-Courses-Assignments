@@ -1,0 +1,5 @@
+Compile the code as follows :
+ coolc stack_machine.cl atoi.cl
+
+Execute the executable as follows : 
+ spim stack_machine.s
